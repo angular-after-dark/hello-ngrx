@@ -1,0 +1,19 @@
+<form [formGroup]="patientForm">
+  <input type="hidden" formControlName="id">
+  <div class="form-group">
+    <label for="patientName">Patient Name</label>
+    <input type="text" class="form-control" formControlName="patientName" placeholder="Enter Patient Name">
+  </div>
+  <div class="form-group">
+    <label for="appoinmentDate">Appoinment Date</label>
+    <input type="date" formControlName="appoinmentDate" class="form-control">
+  </div>
+  <div class="form-group">
+      <label for="department">Department</label>
+      <input type="text" formControlName="service" class="form-control">
+    </div>
+  <div class="form-group">
+    <label for="service">Service</label>
+    <input type="text" formControlName="service" class="form-control">
+  </div>
+</form>
